@@ -1,0 +1,20 @@
+class,typical_objects,typical_dominant_colours,typical_geometric_patterns,diagnostic_cues,provenance
+airport,airplane,,line,airplane together with long linear paved surfaces,"Manuscript Sec. 3.2 (qualitative). TODO: replace with the profile supplied to the agent"
+beach,,,,,TODO
+bridge,,,,,TODO
+commercial,,,,,TODO
+desert,,,,,TODO
+farmland,,,,,TODO
+football field,,,,,TODO
+forest,,,,,TODO
+industrial,,,,,TODO
+meadow,,,,,TODO
+mountain,,,,,TODO
+park,,,,,TODO
+parking,,,,,TODO
+pond,,,,,TODO
+port,water; dock; water transport,blue; gray,rectangle; line,maritime infrastructure (dock and water transport on water),"Manuscript Sec. 3.2 and Case A (qualitative). TODO: replace with the profile supplied to the agent"
+railway station,,,,,TODO
+residential,,,,,TODO
+river,,,,,TODO
+viaduct,,,,,TODO

@@ -1,0 +1,55 @@
+{
+  "name": "WHU-RS19 ABZSL attribute vocabulary",
+  "description": "Controlled attribute vocabulary (38 binary, image-level attributes) used by GeoRS-Agent as semantic evidence. Grouped as 19 objects, 11 dominant colours and 8 geometric patterns, following the WHU-RS19 ABZSL release. 'canonical' is the lowercase form used in agent outputs; 'display_name' is the English name in the dataset release; 'annotation_column' is the original (Italian) column name in the annotation file; 'aliases' lists accepted variants together with their provenance.",
+  "source": "Balestra, M., Paolanti, M., Pierdicca, R. (2025). WHU-RS19 ABZSL: An Attribute-Based Dataset for Remote Sensing Image Understanding. Remote Sensing 17(14), 2384. doi:10.3390/rs17142384. Attribute names and grouping taken from the dataset release (github.com/marinapaolanti/WHU-RS19-ABZSL-An-Attribute-Based-Dataset-for-Remote-Sensing-Image-Understanding).",
+  "alias_provenance": {
+    "manuscript": "Term used for this attribute in the GeoRS-Agent manuscript text or examples.",
+    "spelling": "Orthographic variant (e.g., British vs American spelling)."
+  },
+  "groups": {
+    "objects": [
+      {"canonical": "airplane",        "display_name": "Airplane",        "annotation_column": "Aereo",                        "aliases": [{"term": "aircraft", "provenance": "manuscript"}]},
+      {"canonical": "road",            "display_name": "Road",            "annotation_column": "Strada",                       "aliases": []},
+      {"canonical": "bridge",          "display_name": "Bridge",          "annotation_column": "Ponte",                        "aliases": []},
+      {"canonical": "road transport",  "display_name": "Road Transport",  "annotation_column": "Mezzi di trasporto su strada", "aliases": []},
+      {"canonical": "houses",          "display_name": "Houses",          "annotation_column": "Case",                         "aliases": []},
+      {"canonical": "grass",           "display_name": "Grass",           "annotation_column": "Prato",                        "aliases": []},
+      {"canonical": "trees",           "display_name": "Trees",           "annotation_column": "Alberi",                       "aliases": []},
+      {"canonical": "mountains",       "display_name": "Mountains",       "annotation_column": "Monti",                        "aliases": []},
+      {"canonical": "soil",            "display_name": "Soil",            "annotation_column": "Terreno",                      "aliases": []},
+      {"canonical": "water",           "display_name": "Water",           "annotation_column": "Acqua",                        "aliases": []},
+      {"canonical": "sand",            "display_name": "Sand",            "annotation_column": "Sabbia",                       "aliases": []},
+      {"canonical": "water transport", "display_name": "Water Transport", "annotation_column": "Mezzi di trasporto via acqua", "aliases": [{"term": "water vehicles", "provenance": "manuscript"}]},
+      {"canonical": "dock",            "display_name": "Dock",            "annotation_column": "Banchina",                     "aliases": []},
+      {"canonical": "stadium",         "display_name": "Stadium",         "annotation_column": "Stadio",                       "aliases": []},
+      {"canonical": "football field",  "display_name": "Football Field",  "annotation_column": "Campo da calcio",              "aliases": []},
+      {"canonical": "buildings",       "display_name": "Buildings",       "annotation_column": "Edifici",                      "aliases": []},
+      {"canonical": "parking spots",   "display_name": "Parking Spots",   "annotation_column": "Posti per auto",               "aliases": []},
+      {"canonical": "rails",           "display_name": "Rails",           "annotation_column": "Binari",                       "aliases": []},
+      {"canonical": "trains",          "display_name": "Trains",          "annotation_column": "Treni",                        "aliases": []}
+    ],
+    "dominant_colours": [
+      {"canonical": "red",        "display_name": "Red",        "annotation_column": "Rosso",     "aliases": []},
+      {"canonical": "orange",     "display_name": "Orange",     "annotation_column": "Arancione", "aliases": []},
+      {"canonical": "ochre",      "display_name": "Ochre",      "annotation_column": "Ocra",      "aliases": []},
+      {"canonical": "beige",      "display_name": "Beige",      "annotation_column": "Beige",     "aliases": []},
+      {"canonical": "green",      "display_name": "Green",      "annotation_column": "Verde",     "aliases": []},
+      {"canonical": "light blue", "display_name": "Light Blue", "annotation_column": "Azzurro",   "aliases": []},
+      {"canonical": "blue",       "display_name": "Blue",       "annotation_column": "Blu",       "aliases": []},
+      {"canonical": "brown",      "display_name": "Brown",      "annotation_column": "Marrone",   "aliases": []},
+      {"canonical": "gray",       "display_name": "Gray",       "annotation_column": "Grigio",    "aliases": [{"term": "grey", "provenance": "spelling"}]},
+      {"canonical": "white",      "display_name": "White",      "annotation_column": "Bianco",    "aliases": []},
+      {"canonical": "black",      "display_name": "Black",      "annotation_column": "Nero",      "aliases": []}
+    ],
+    "geometric_patterns": [
+      {"canonical": "rectangle",    "display_name": "Rectangle",    "annotation_column": "Rettangolo",         "aliases": []},
+      {"canonical": "triangle",     "display_name": "Triangle",     "annotation_column": "Triangolo",          "aliases": []},
+      {"canonical": "square",       "display_name": "Square",       "annotation_column": "Quadrato",           "aliases": []},
+      {"canonical": "sine wave",    "display_name": "Sine Wave",    "annotation_column": "Sinusoide",          "aliases": []},
+      {"canonical": "line",         "display_name": "Line",         "annotation_column": "Linea",              "aliases": []},
+      {"canonical": "dashed line",  "display_name": "Dashed Line",  "annotation_column": "Linea tratteggiata", "aliases": []},
+      {"canonical": "curve",        "display_name": "Curve",        "annotation_column": "Curva",              "aliases": []},
+      {"canonical": "closed curve", "display_name": "Closed Curve", "annotation_column": "Curva chiusa",       "aliases": []}
+    ]
+  }
+}

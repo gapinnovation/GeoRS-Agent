@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "georsagent"
+version = "1.0.0"
+description = "Evaluation and audit tools for GeoRS-Agent, an attribute-grounded agentic GeoAI framework for remote sensing scene understanding"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Marina Paolanti", email = "marina.paolanti@unimc.it"},
+  {name = "Roberto Pierdicca", email = "r.pierdicca@staff.univpm.it"},
+]
+keywords = ["remote sensing", "agentic GeoAI", "explainable AI", "semantic attributes", "large language models", "WHU-RS19"]
+dependencies = ["jsonschema>=4.18"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+georsagent = "georsagent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

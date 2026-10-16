@@ -1,0 +1,28 @@
+{
+  "case": "B",
+  "title": "Ambiguity-aware interpretation",
+  "setting": "controlled attribute query (no image)",
+  "provenance": "Reconstructed from manuscript Table 2 and Figure 2, Case B. Class labels, attributes and confidence are as reported; text fields marked [NOT REPORTED] are not given verbatim in the manuscript and must be replaced with the original agent output before release.",
+  "caveat": "The input was selected from known class-attribute associations; it illustrates ambiguity handling, not recognition performance (Sec. 5.1).",
+  "input": {
+    "attributes": ["water", "blue", "curve", "green"]
+  },
+  "response": {
+    "scene_interpretation": {
+      "predicted_class": ["river", "pond"],
+      "confidence": "moderate"
+    },
+    "attribute_analysis": {
+      "objects": ["water"],
+      "dominant_colours": ["blue", "green"],
+      "geometric_patterns": ["curve"]
+    },
+    "alternative_classes": [
+      {"class": "beach",  "reason": "[NOT REPORTED]"},
+      {"class": "park",   "reason": "[NOT REPORTED]"},
+      {"class": "meadow", "reason": "[NOT REPORTED]"}
+    ],
+    "explanation": "[NOT REPORTED] Table 2 summary: water, blue, green and curve are compatible with a natural water scene; multiple interpretations retained.",
+    "uncertainty_note": "Evidence supports a natural water scene but is insufficient to force a single class. (Figure 2 note)"
+  }
+}

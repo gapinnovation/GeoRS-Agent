@@ -1,0 +1,30 @@
+# GeoRS-Agent prototype configuration record.
+# Manuscript Sec. 4.1: the exact model/version and complete system instructions
+# should be documented alongside the released configuration materials.
+# Fields marked TODO must be filled before release.
+
+prototype:
+  implementation: custom agent configured in a conversational LLM environment (no-code/low-code)
+  platform: TODO              # name of the conversational environment used to configure the agent
+  model: TODO                 # model name as shown by the platform
+  model_version: TODO         # snapshot/version identifier, if exposed
+  experiment_dates: TODO      # e.g. 2026-05-10 to 2026-05-12
+  fine_tuning: none           # no domain-specific training or fine-tuning (Sec. 4.1)
+  sampling_parameters: TODO   # temperature etc., or "not exposed by the platform"
+  tools_enabled: TODO         # e.g. web browsing, code execution, image generation: on/off
+
+instructions:
+  system_prompt: agent/system_prompt.md   # replace with the verbatim instructions
+  knowledge_files:
+    - knowledge_base/whu_rs19_classes.json
+    - knowledge_base/abzsl_attributes.json
+    - knowledge_base/class_attribute_profiles.csv
+  output_schema: agent/output_schema.json
+
+evaluation_protocol:              # Sec. 4.6
+  interaction_mode: structured
+  one_conversation_per_image: true
+  identical_instruction_for_all_images: true
+  ground_truth_disclosed: false
+  configuration_modified_between_tests: false
+  test_instruction: evaluation/image_test_instruction.md

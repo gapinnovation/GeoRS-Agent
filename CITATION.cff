@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article below."
+title: "GeoRS-Agent: An Agentic GeoAI Framework for Attribute-Grounded and Explainable Remote Sensing Scene Understanding"
+version: 1.0.0
+date-released: 2026-10-16
+license: MIT
+authors:
+  - family-names: Paolanti
+    given-names: Marina
+    email: marina.paolanti@unimc.it
+    affiliation: "Department of Political Sciences, Communication and International Relations, University of Macerata"
+  - family-names: Pierdicca
+    given-names: Roberto
+    email: r.pierdicca@staff.univpm.it
+    affiliation: "Department of Civil and Building Engineering and Architecture (DICEA), Università Politecnica delle Marche"
+keywords:
+  - remote sensing
+  - agentic GeoAI
+  - explainable AI
+  - semantic attributes
+  - large language models
+  - scene understanding
+preferred-citation:
+  type: article
+  title: "GeoRS-Agent: An Agentic GeoAI Framework for Attribute-Grounded and Explainable Remote Sensing Scene Understanding"
+  authors:
+    - family-names: Paolanti
+      given-names: Marina
+    - family-names: Pierdicca
+      given-names: Roberto
+  journal: Computers
+  year: 2026
+  notes: "Under review"
+references:
+  - type: article
+    title: "WHU-RS19 ABZSL: An Attribute-Based Dataset for Remote Sensing Image Understanding"
+    authors:
+      - family-names: Balestra
+        given-names: Mattia
+      - family-names: Paolanti
+        given-names: Marina
+      - family-names: Pierdicca
+        given-names: Roberto
+    journal: Remote Sensing
+    volume: 17
+    issue: 14
+    start: 2384
+    year: 2025
+    doi: 10.3390/rs17142384

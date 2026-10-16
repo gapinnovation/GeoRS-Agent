@@ -1,0 +1,30 @@
+{
+  "name": "WHU-RS19 canonical scene classes",
+  "description": "Closed-set label vocabulary used by GeoRS-Agent. The 19 classes are inherited unchanged from WHU-RS19; WHU-RS19 ABZSL adds image-level attributes but does not alter the class set. 'canonical' is the exact label string expected in agent outputs; 'display_name' follows the WHU-RS19 ABZSL release.",
+  "sources": [
+    "Xia, G.S. et al. (2010). Structural High-Resolution Satellite Image Indexing. ISPRS TC VII Symposium.",
+    "Balestra, M., Paolanti, M., Pierdicca, R. (2025). WHU-RS19 ABZSL. Remote Sensing 17(14), 2384. doi:10.3390/rs17142384"
+  ],
+  "label_normalization": "Labels are compared after trimming, Unicode case-folding and collapsing internal whitespace. No synonym replacement is applied.",
+  "classes": [
+    {"canonical": "airport",         "display_name": "Airport"},
+    {"canonical": "beach",           "display_name": "Beach"},
+    {"canonical": "bridge",          "display_name": "Bridge"},
+    {"canonical": "commercial",      "display_name": "Commercial"},
+    {"canonical": "desert",          "display_name": "Desert"},
+    {"canonical": "farmland",        "display_name": "Farmland"},
+    {"canonical": "football field",  "display_name": "Football Field"},
+    {"canonical": "forest",          "display_name": "Forest"},
+    {"canonical": "industrial",      "display_name": "Industrial"},
+    {"canonical": "meadow",          "display_name": "Meadow"},
+    {"canonical": "mountain",        "display_name": "Mountain"},
+    {"canonical": "park",            "display_name": "Park"},
+    {"canonical": "parking",         "display_name": "Parking"},
+    {"canonical": "pond",            "display_name": "Pond"},
+    {"canonical": "port",            "display_name": "Port"},
+    {"canonical": "railway station", "display_name": "Railway Station"},
+    {"canonical": "residential",     "display_name": "Residential"},
+    {"canonical": "river",           "display_name": "River"},
+    {"canonical": "viaduct",         "display_name": "Viaduct"}
+  ]
+}

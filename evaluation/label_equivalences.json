@@ -1,0 +1,17 @@
+{
+  "description": "Manually defined semantic equivalences used ONLY for the 'semantic class agreement' measure (manuscript Sec. 4.7). They are never applied to exact-match accuracy or to taxonomy compliance, and outputs are never relabelled.",
+  "equivalences": [
+    {
+      "label": "parking lot",
+      "canonical_class": "parking",
+      "rationale": "Descriptive synonym of the canonical WHU-RS19 category 'parking'."
+    }
+  ],
+  "explicitly_not_equivalent": [
+    {
+      "label": "overpass",
+      "classes": ["viaduct", "bridge"],
+      "rationale": "Intelligible infrastructure concept, but not a WHU-RS19 label. In the viaduct test the agent rejected the reference class, which is a class-interpretation error, not a synonym (Sec. 5.3)."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+test_id,reference_class,image_file,predicted_label,noncanonical_alternatives_reported,fully_compliant,observation,provenance
+T01,airport,TODO,airport,,false,Aircraft reported absent although visible in the image,"Table 3. fully_compliant inferred: Sec. 5.5 reports 3/10 fully compliant responses and Table 3 lists canonical-only alternatives for commercial, farmland and forest; the non-canonical label is not named in the manuscript"
+T02,beach,TODO,beach,island,false,Non-canonical alternative,Table 3; Sec. 5.2
+T03,bridge,TODO,bridge,overpass,false,Non-canonical alternative,Table 3; Sec. 5.2
+T04,commercial,TODO,commercial,,true,Canonical alternatives (labels not listed in the manuscript),Table 3
+T05,farmland,TODO,farmland,,true,Canonical alternatives (labels not listed in the manuscript),Table 3
+T06,forest,TODO,forest,,true,Canonical alternatives (labels not listed in the manuscript),Table 3
+T07,industrial,TODO,industrial,parking lot,false,Non-canonical alternative,Table 3
+T08,parking,TODO,parking lot,,false,Non-canonical primary label; semantically equivalent to parking (Sec. 4.7),Table 3; Sec. 5.3
+T09,railway station,TODO,railway station,overpass,false,Non-canonical alternative,Table 3; Sec. 5.2
+T10,viaduct,TODO,overpass,,false,Non-canonical primary label; reference class discounted because repeated piers or arches were not detected,Table 3; Sec. 5.4 and 6
