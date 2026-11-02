@@ -1,0 +1,495 @@
+image_id,run,raw_label
+Farmland-36,primary,Agricultural fields
+Mountain_36,primary,mountainous terrain
+beach-36,primary,Glacier
+footballField_36,primary,Sports Stadium
+forest_38,primary,River in Forest
+industrial_37,primary,Industrial Complex
+railwayStation_36,primary,Railway Yard
+residential_39,primary,Residential Neighborhood
+river_40,primary,Coastal Wetland
+Farmland-37,primary,Agricultural fields
+Farmland-38,primary,Agricultural Field
+Farmland-39,primary,agricultural fields
+Farmland-40,primary,Agricultural fields
+Farmland-41,primary,Agricultural fields
+Farmland-42,primary,Agricultural fields
+Farmland-43,primary,Agricultural Field
+Farmland-44,primary,Agricultural fields
+Farmland-45,primary,Agricultural Field
+Farmland-46,primary,agricultural fields
+Farmland-47,primary,Agricultural fields
+Farmland-48,primary,Agricultural fields
+Farmland-49,primary,Agricultural fields
+Farmland-50,primary,Agricultural fields
+Mountain_37,primary,mountainous terrain
+Mountain_38,primary,mountainous terrain
+Mountain_39,primary,mountainous terrain
+Mountain_41,primary,Forested Landscape with Water Bodies
+Mountain_42,primary,mountainous terrain
+Mountain_43,primary,mountainous terrain
+Mountain_44,primary,mountainous terrain
+Mountain_45,primary,River Valley
+Mountain_46,primary,mountainous terrain
+Mountain_47,primary,mountainous terrain
+Mountain_48,primary,mountainous terrain
+Mountain_50,primary,mountainous terrain
+Park_50,primary,Park with Lakes
+airport_46,primary,Airport Runway
+beach-37,primary,Glacier
+beach-38,primary,Coastal Area
+beach-39,primary,mountainous terrain
+beach-40,primary,Coastal Landscape
+beach-42,primary,Coastal Landscape
+beach-43,primary,mountainous terrain
+beach-44,primary,Urban area
+beach-45,primary,Coastal Area
+beach-49,primary,Coastal Area
+beach-50,primary,Glacier
+bridge_38,primary,Bridge over water
+bridge_40,primary,Bridge over water
+bridge_42,primary,River with Bridge
+bridge_43,primary,Urban area
+bridge_44,primary,Bridge over water
+bridge_45,primary,Bridge over Water
+bridge_46,primary,Bridge over water
+bridge_47,primary,Highway with Airplane
+bridge_50,primary,Bridge and River
+bridge_51,primary,urban infrastructure
+bridge_52,primary,bridge over water
+commercial_41,primary,Urban Center
+commercial_42,primary,Urban
+commercial_43,primary,Urban Development
+commercial_44,primary,Urban
+commercial_45,primary,Urban Center
+commercial_46,primary,Urban
+commercial_47,primary,Urban
+commercial_48,primary,Urban
+commercial_49,primary,Urban
+commercial_50,primary,Urban Center
+commercial_51,primary,Urban Center
+commercial_52,primary,Urban
+commercial_53,primary,Urban Center
+commercial_54,primary,Urban
+commercial_55,primary,Urban
+commercial_56,primary,Urban
+footballField_38,primary,Sports Stadium
+footballField_39,primary,Sports Stadium
+footballField_44,primary,Sports Stadium
+footballField_45,primary,Sports Stadium
+footballField_46,primary,Sports Stadium
+footballField_48,primary,Sports Stadium
+footballField_50,primary,Sports Stadium
+forest_42,primary,Urban-Rural Transition
+industrial_38,primary,Industrial Complex
+industrial_39,primary,Industrial Complex
+industrial_43,primary,Industrial Complex
+industrial_44,primary,Industrial Complex
+industrial_45,primary,Industrial Complex
+industrial_46,primary,Industrial Park
+industrial_51,primary,Industrial Complex
+industrial_52,primary,Industrial Complex
+industrial_53,primary,Industrial Complex
+meadow_45,primary,Agricultural Field
+meadow_46,primary,Agricultural Field
+meadow_47,primary,Agricultural Field
+meadow_48,primary,Agricultural Field
+meadow_51,primary,agricultural field
+meadow_52,primary,Agricultural Field
+meadow_53,primary,agricultural field
+meadow_54,primary,Agricultural Field
+meadow_55,primary,Agricultural Field
+meadow_56,primary,agricultural field
+meadow_57,primary,agricultural field
+meadow_58,primary,Agricultural Field
+meadow_59,primary,agricultural field
+meadow_60,primary,Agricultural Field
+meadow_61,primary,Agricultural Field
+pond_41,primary,Circular Pond
+pond_42,primary,Crop Circle
+railwayStation_37,primary,Industrial Complex
+railwayStation_39,primary,Railway Yard
+railwayStation_40,primary,Railway Yard
+railwayStation_42,primary,Railway Yard
+railwayStation_43,primary,Railway Yard
+railwayStation_44,primary,Railway Yard
+railwayStation_45,primary,Industrial Railway Yard
+railwayStation_46,primary,Railway Yard
+railwayStation_47,primary,Railway Yard
+railwayStation_49,primary,Railway Yard
+railwayStation_50,primary,Railway Yard
+residential_40,primary,Residential Neighborhood
+residential_41,primary,Urban residential area
+residential_42,primary,Residential Neighborhood
+residential_43,primary,Residential Neighborhood
+residential_44,primary,Residential Neighborhood
+residential_45,primary,Residential Neighborhood
+residential_46,primary,Residential Neighborhood
+residential_47,primary,Residential Neighborhood
+residential_48,primary,Residential Neighborhood
+residential_49,primary,Residential Neighborhood
+residential_50,primary,Residential Neighborhood
+residential_51,primary,Residential Neighborhood
+residential_52,primary,Residential Neighborhood
+residential_53,primary,Residential Neighborhood
+residential_54,primary,Residential Neighborhood
+river_41,primary,River and Forest
+river_42,primary,River with floodplain
+river_43,primary,River with Forested Banks
+river_44,primary,River Bend
+river_45,primary,River Delta
+river_46,primary,River meandering through forest
+river_47,primary,River Delta
+river_48,primary,River meandering through agricultural land
+river_49,primary,River bend
+river_50,primary,Rural Landscape
+river_51,primary,River and Agricultural Fields
+river_52,primary,River in Forest
+river_53,primary,River with riparian vegetation
+river_54,primary,River in Forest
+river_55,primary,River meandering through forest
+river_56,primary,Riverine Wetland
+Farmland-39,stab1,agricultural fields
+Farmland-41,stab1,Agricultural fields
+Farmland-42,stab1,Agricultural fields
+Farmland-43,stab1,Agricultural Field
+Farmland-48,stab1,Agricultural fields
+Mountain_42,stab1,mountainous terrain
+Mountain_44,stab1,mountainous terrain
+Mountain_46,stab1,mountainous terrain
+Mountain_50,stab1,mountainous terrain
+airport_46,stab1,Airport Runway
+beach-36,stab1,Snow-covered landscape
+beach-39,stab1,mountainous terrain
+beach-42,stab1,Coastal Landscape
+beach-44,stab1,mountainous terrain
+beach-47,stab1,sandbar
+bridge_42,stab1,River or canal
+bridge_45,stab1,Bridge over Water
+bridge_50,stab1,Bridge with Ship
+commercial_41,stab1,Urban Center
+commercial_42,stab1,urban area
+commercial_43,stab1,Urban
+commercial_44,stab1,Urban area
+commercial_49,stab1,Urban
+desert_46,stab1,bare soil
+footballField_38,stab1,Sports Stadium
+footballField_46,stab1,Sports Stadium
+footballField_48,stab1,Sports Stadium
+forest_51,stab1,dense forest
+industrial_37,stab1,Industrial Complex
+industrial_45,stab1,Industrial Complex
+industrial_46,stab1,Industrial Park
+meadow_54,stab1,Agricultural Field
+meadow_56,stab1,Agricultural Field
+meadow_60,stab1,agricultural field
+meadow_61,stab1,Agricultural Field
+pond_42,stab1,artificial pond
+pond_50,stab1,Lakes or Ponds
+railwayStation_37,stab1,Industrial Complex
+railwayStation_38,stab1,Industrial Railway Yard
+railwayStation_45,stab1,Industrial Rail Yard
+railwayStation_49,stab1,Railway Yard
+residential_39,stab1,Residential Neighborhood
+residential_41,stab1,Urban residential area
+residential_45,stab1,Residential Neighborhood
+residential_46,stab1,Residential Neighborhood
+residential_47,stab1,Residential Neighborhood
+river_43,stab1,River and Forest
+river_45,stab1,River Delta
+river_46,stab1,River Delta
+river_51,stab1,River with surrounding vegetation
+river_54,stab1,River in Forest
+viaduct_52,stab1,Highway intersection
+viaduct_57,stab1,Highway intersection
+Farmland-39,stab2,agricultural landscape
+Farmland-41,stab2,Agricultural Field
+Farmland-42,stab2,Agricultural Landscape
+Farmland-43,stab2,Agricultural Fields
+Farmland-48,stab2,Agricultural Field
+Mountain_40,stab2,Forest or Woodland
+Park_36,stab2,Park or Natural Area
+Park_39,stab2,Urban Green Space
+Park_42,stab2,park and highway intersection
+Park_46,stab2,Urban Green Space
+Park_47,stab2,Urban Green Space
+airport_43,stab2,Airport and Runways
+airport_46,stab2,Airport Runway
+airport_48,stab2,Airport Terminals and Runways
+airport_50,stab2,Airport infrastructure
+airport_55,stab2,Airport terminal
+beach-36,stab2,Snow and Ice
+beach-42,stab2,Coastal Region
+beach-47,stab2,sandbar
+bridge_41,stab2,Bridge across water
+bridge_42,stab2,River channel
+bridge_45,stab2,Bridge across water
+bridge_46,stab2,Bridge Spanning Water
+bridge_50,stab2,Bridge construction
+commercial_41,stab2,Urban complex
+commercial_42,stab2,Urban
+commercial_43,stab2,Urban Planning
+commercial_44,stab2,Urban built-up area
+commercial_49,stab2,Urban City
+footballField_44,stab2,Sports Arena
+footballField_46,stab2,Sports complex
+footballField_48,stab2,Sports Arena
+forest_39,stab2,Forest Area
+forest_51,stab2,Forested Area
+industrial_40,stab2,Industrialzone
+industrial_45,stab2,Industrial/Manufacturing Complex
+industrial_46,stab2,Industrialpark
+industrial_49,stab2,Industrial Development
+meadow_44,stab2,Forested Area
+meadow_54,stab2,Agricultural Field
+meadow_56,stab2,agricultural fields
+meadow_60,stab2,agricultural field
+meadow_61,stab2,Agricultural Field
+parking_37,stab2,Parking Structure
+parking_41,stab2,Parking lots
+pond_39,stab2,Residential Park
+pond_42,stab2,artificial pond
+port_41,stab2,Port facility
+port_43,stab2,Port Infrastructural Area
+port_50,stab2,Marine Port
+railwayStation_37,stab2,Industrial Railway Yard
+railwayStation_38,stab2,Industrial Train Yard
+railwayStation_41,stab2,Railroad Station
+railwayStation_45,stab2,Industrial & Transportation
+residential_39,stab2,Residential Neighborhood
+residential_41,stab2,Urban neighborhood
+residential_45,stab2,Residential Neighborhood
+residential_46,stab2,Residential Neighborhood
+residential_47,stab2,Residential Neighborhood
+river_43,stab2,River Bank with Vegetation
+river_45,stab2,River landscape
+river_46,stab2,River curve surrounded by forest
+river_51,stab2,River Flows Through Forested Area
+river_54,stab2,River-in-Forest
+viaduct_51,stab2,Highway intersection
+viaduct_52,stab2,Highway intersection
+viaduct_57,stab2,Highway intersection
+Farmland-39,stab3,agricultural fields
+Farmland-41,stab3,Agricultural Fields
+Farmland-42,stab3,Agricultural Fields
+Farmland-43,stab3,Agricultural fields
+Farmland-48,stab3,Agricultural Fields
+Mountain_42,stab3,mountainous terrain
+Mountain_44,stab3,mountainous terrain
+Mountain_46,stab3,mountainous terrain
+Mountain_50,stab3,mountainous terrain
+airport_46,stab3,Airport Runway
+beach-36,stab3,Glacier
+beach-42,stab3,Coastal Area
+beach-44,stab3,Urban area with water bodies
+bridge_42,stab3,River with adjacent road
+bridge_45,stab3,Bridge over water
+bridge_46,stab3,Bridge over Water
+bridge_50,stab3,Bridge and Waterway
+commercial_41,stab3,Urban Center
+commercial_42,stab3,Urban
+commercial_43,stab3,Urban Development
+commercial_44,stab3,Urban
+commercial_49,stab3,Urban
+desert_45,stab3,desert landscape
+footballField_38,stab3,Sports Stadium
+footballField_44,stab3,Sports Stadium
+footballField_46,stab3,Sports Stadium
+footballField_48,stab3,Sports Stadium
+industrial_37,stab3,Industrial Complex
+industrial_45,stab3,Industrial Complex
+industrial_46,stab3,Industrial Park
+meadow_54,stab3,Agricultural Field
+meadow_56,stab3,agricultural field
+meadow_60,stab3,Agricultural Field
+meadow_61,stab3,Agricultural Field
+pond_42,stab3,Sinkhole
+pond_44,stab3,Pond or Small Lake
+pond_50,stab3,Pond or Lake
+railwayStation_37,stab3,Industrial Complex
+railwayStation_45,stab3,Industrial Railway Area
+railwayStation_49,stab3,Railway Yard
+residential_41,stab3,Urban residential area
+residential_45,stab3,Residential neighborhood
+residential_46,stab3,Residential neighborhood
+residential_47,stab3,Residential neighborhood
+river_43,stab3,River with riparian vegetation
+river_45,stab3,River Delta
+river_46,stab3,River meandering through a forest
+river_51,stab3,River and Forest
+river_54,stab3,River in Forest
+viaduct_55,stab3,Highway intersection
+Farmland-39,stab1b,agricultural fields
+Farmland-41,stab1b,Agricultural fields
+Farmland-42,stab1b,agricultural fields
+Farmland-43,stab1b,agricultural fields
+Farmland-48,stab1b,Agricultural fields
+Mountain_40,stab1b,Forested Landscape
+Mountain_42,stab1b,mountainous terrain
+Mountain_44,stab1b,mountainous terrain
+Mountain_50,stab1b,mountainous terrain
+Park_36,stab1b,Park with Pond
+Park_42,stab1b,Circular park with paved structures
+airport_46,stab1b,Airport Runway
+airport_50,stab1b,airport runway
+airport_55,stab1b,Airport Terminal
+beach-39,stab1b,mountain landscape
+beach-42,stab1b,Coastal Landscape
+beach-44,stab1b,Urban
+beach-47,stab1b,sandbar
+bridge_41,stab1b,Bridge over water
+bridge_42,stab1b,River with Highway
+bridge_45,stab1b,Bridge Over Water
+bridge_46,stab1b,bridge over water
+bridge_50,stab1b,Bridge and Waterway with Vessels
+commercial_41,stab1b,Urban/Commercial District
+commercial_42,stab1b,Urban
+commercial_43,stab1b,Urban Development
+commercial_44,stab1b,Urban area
+commercial_49,stab1b,Urban
+desert_46,stab1b,snow-covered land
+footballField_38,stab1b,Sports Stadium
+footballField_44,stab1b,sports stadium
+footballField_46,stab1b,Sports Stadium
+forest_44,stab1b,dense forest
+industrial_40,stab1b,Urban industrial
+industrial_45,stab1b,Industrial Complex
+industrial_46,stab1b,Industrial park
+industrial_49,stab1b,Industrial Park
+meadow_44,stab1b,arid desert
+meadow_56,stab1b,agricultural farmland
+meadow_61,stab1b,Agricultural Field
+pond_42,stab1b,Crop Circle
+pond_49,stab1b,Agricultural Pond
+port_43,stab1b,Industrial harbor
+railwayStation_37,stab1b,Industrial Complex
+railwayStation_38,stab1b,Industrial Rail Yard
+railwayStation_45,stab1b,Industrial complex
+residential_41,stab1b,Urban residential area
+residential_45,stab1b,Residential Neighborhood
+residential_46,stab1b,Residential neighborhood
+residential_47,stab1b,Residential Neighborhood
+river_43,stab1b,River and Forest
+river_45,stab1b,River Delta
+river_46,stab1b,River bend
+river_51,stab1b,Riverbank
+river_54,stab1b,River and Forest
+viaduct_51,stab1b,Highway Overpass and Interchange
+viaduct_52,stab1b,Highway intersection
+viaduct_57,stab1b,Highway Overpass
+Farmland-39,stab2b,agricultural area
+Farmland-42,stab2b,Agricultural Fields with Linear Features
+Farmland-43,stab2b,agricultural landscape
+Farmland-48,stab2b,Agricultural fields
+Mountain_40,stab2b,Forested Landscape
+Mountain_42,stab2b,mountainous terrain
+Mountain_44,stab2b,mountainous terrain
+Mountain_46,stab2b,Mountainous Landscape
+Mountain_50,stab2b,mountainous terrain
+Park_42,stab2b,park or recreational area with transportation infrastructure
+airport_43,stab2b,Airport Terminal
+airport_46,stab2b,Airport Runway
+beach-36,stab2b,Coastal region
+beach-39,stab2b,snow-covered mountains
+beach-42,stab2b,Ocean
+beach-44,stab2b,Coastal Area
+beach-47,stab2b,sandbar
+bridge_42,stab2b,coastal barrier
+bridge_50,stab2b,bridge over river
+commercial_41,stab2b,Urban plaza
+commercial_42,stab2b,Urban
+commercial_43,stab2b,Urban
+commercial_44,stab2b,urban area
+commercial_49,stab2b,Urban
+desert_45,stab2b,dust devil
+desert_48,stab2b,sand dune
+footballField_38,stab2b,Sports Stadium
+footballField_40,stab2b,football stadium
+footballField_44,stab2b,sports stadium
+footballField_46,stab2b,Sports stadium
+footballField_48,stab2b,Sports Stadium
+forest_39,stab2b,Forest with a clear cut
+forest_51,stab2b,dense forest
+industrial_37,stab2b,Industrial Complex
+industrial_45,stab2b,Industrial Complex
+industrial_49,stab2b,Industrial Park
+meadow_54,stab2b,Agricultural Field
+meadow_56,stab2b,agricultural field
+meadow_60,stab2b,vegetation
+meadow_61,stab2b,Agricultural Field
+parking_41,stab2b,Commercial Parking Lot
+pond_39,stab2b,Park with a Lake
+pond_42,stab2b,Artificial Pond
+pond_44,stab2b,Pond in Pasture
+pond_49,stab2b,Aquaculture Pond
+pond_50,stab2b,Farm Pond
+port_41,stab2b,Shipping Port
+port_43,stab2b,Seaport
+railwayStation_38,stab2b,Industrial/Urban Railway Yard
+railwayStation_45,stab2b,Industrial Railway Yard
+railwayStation_49,stab2b,Railway Yard
+residential_41,stab2b,Residential Neighborhood
+residential_45,stab2b,Residential Neighborhood
+residential_46,stab2b,Urban residential area
+residential_47,stab2b,Residential Neighborhood
+river_43,stab2b,River and Forest
+river_45,stab2b,River delta
+river_46,stab2b,river meandering through forest
+river_51,stab2b,Rural Waterway
+river_54,stab2b,River in Forest
+viaduct_51,stab2b,freeway interchange
+viaduct_52,stab2b,highway intersection
+viaduct_57,stab2b,Highway intersection
+Farmland-39,stab3b,agricultural landscape
+Farmland-41,stab3b,Agricultural fields
+Farmland-43,stab3b,Agricultural fields
+Farmland-48,stab3b,agricultural field
+Mountain_42,stab3b,Mountainous terrain
+Mountain_44,stab3b,Mountain Landscape
+Mountain_46,stab3b,Forested Mountain
+Mountain_50,stab3b,Mountainous Terrain
+Park_36,stab3b,Park with a Pond
+Park_42,stab3b,Circular Park
+beach-36,stab3b,Clouds
+beach-39,stab3b,snow-covered terrain
+beach-47,stab3b,sandbar
+bridge_42,stab3b,River or Channel
+bridge_46,stab3b,bridge over water
+bridge_50,stab3b,Bridge and River
+commercial_41,stab3b,urban center
+commercial_42,stab3b,Urban Center
+commercial_43,stab3b,Urban Development
+commercial_44,stab3b,Urban
+commercial_49,stab3b,Urban Area
+desert_45,stab3b,dust devil
+footballField_38,stab3b,Football Stadium
+footballField_40,stab3b,football stadium
+footballField_44,stab3b,sports stadium
+footballField_46,stab3b,Sports stadium
+footballField_48,stab3b,sports stadium
+forest_39,stab3b,Forested area with road
+forest_44,stab3b,dense forest
+industrial_37,stab3b,Industrial Complex
+industrial_45,stab3b,Industrial Complex
+industrial_46,stab3b,Industrial Park
+meadow_54,stab3b,Agricultural Field
+meadow_61,stab3b,agricultural field
+pond_42,stab3b,Crop Circle
+port_41,stab3b,port area
+port_43,stab3b,Marine Industrial Port
+railwayStation_37,stab3b,Industrial Complex
+railwayStation_45,stab3b,Railroad yard
+residential_39,stab3b,Residential Neighborhood
+residential_41,stab3b,Urban Residential
+residential_45,stab3b,Residential neighborhood
+residential_46,stab3b,Residential Neighborhood
+residential_47,stab3b,Residential Neighborhood
+river_43,stab3b,river valley
+river_45,stab3b,River Bend with Vegetation
+river_46,stab3b,river bend
+river_51,stab3b,rural landscape
+river_54,stab3b,River with surrounding forest
+viaduct_44,stab3b,complex highway interchange
+viaduct_52,stab3b,highway intersection
+viaduct_55,stab3b,Highway intersection
+viaduct_57,stab3b,Highway交匯

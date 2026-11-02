@@ -1,0 +1,80 @@
+# GeoRS-Agent evaluation configuration. Freeze this file (and commit it)
+# BEFORE running the evaluation; its sha256 is stored in every manifest.
+
+paths:
+  annotations_xlsx: data/annotations_raw.xlsx     # raw, never modified
+  tidy_csv: data/processed/annotations.csv
+  kb_json: kb/class_profiles.json
+  images_root: /path/to/WHU-RS19_ABZSL            # folder containing Train/ and Test/
+  results_dir: results
+
+ollama:
+  host: http://localhost:11434
+  # Open-weight VLM. Choose ONE and keep it for all conditions.
+  # The exact digest is read from Ollama and logged at run time.
+  model: qwen2.5vl:7b
+  options:
+    temperature: 0.0
+    num_ctx: 8192
+    top_p: 1.0
+  timeout: 600
+
+kb:
+  smoothing_alpha: 1.0
+
+protocol:
+  enforce_schema: true     # pass the JSON schema to Ollama (constrained decoding)
+  guardrail: true          # Python validation + retry on failure
+  max_retries: 2
+  # Primary analysis: deterministic decoding. Stability block: sampling with
+  # different seeds to quantify run-to-run variability (reviewers C1.4, R3-2).
+  runs:
+    - {name: primary, temperature: 0.0, seed: 1000}
+    - {name: stab1,   temperature: 0.7, seed: 2000}
+    - {name: stab2,   temperature: 0.7, seed: 3000}
+    - {name: stab3,   temperature: 0.7, seed: 4000}
+  # Stability runs use this many test images per class (stratified, fixed seed).
+  # null = all 301. 5 per class = 95 images, ~4x cheaper; report it as a subset.
+  stability_images_per_class: 5
+  stability_subset_seed: 11
+  conditions: [B0, B1, B2, ORACLE]
+  explain_oracle: false    # oracle explanations are only needed in interventions
+
+# Synonym map used ONLY to score B0 free-text labels (pre-specified, not tuned
+# after seeing outputs). Anything unmatched is counted as wrong and listed
+# in results/b0_unmatched.csv for transparent reporting.
+b0_synonyms:
+  Airport: [airport, airfield, aerodrome]
+  Beach: [beach, coast, coastline, shore, seashore]
+  Bridge: [bridge]
+  Commercial: [commercial, commercial area, commercial district, downtown, business district]
+  Desert: [desert, dunes, sand dunes]
+  Farmland: [farmland, farm, agricultural, agricultural land, cropland, fields, agriculture]
+  footballField: [football field, soccer field, football pitch, soccer pitch, sports field, stadium]
+  Forest: [forest, woodland, woods]
+  Industrial: [industrial, industrial area, industrial zone, factory]
+  Meadow: [meadow, grassland, pasture]
+  Mountain: [mountain, mountains, mountainous, mountain range]
+  Park: [park, urban park]
+  Parking: [parking, parking lot, car park]
+  Pond: [pond, lake, reservoir]
+  Port: [port, harbor, harbour, marina]
+  railwayStation: [railway station, train station, rail yard, railway]
+  Residential: [residential, residential area, housing, suburb, neighborhood]
+  River: [river, stream]
+  Viaduct: [viaduct, interchange, highway interchange, overpass, highway]
+
+interventions:
+  n_images: all            # 'all' or an integer (stratified by class, seed below)
+  seed: 7
+  explanation_top_k: 6
+  irrelevant_metadata_text: "\nMetadata: image acquired on a Tuesday; operator ID 4471; file compressed with JPEG quality 85."
+
+# Interactive agent evaluation (scripts/run_agent_eval.py). Benchmark rules are
+# pre-specified in georsagent/agent_bench.py.
+agent:
+  images_per_class: 5        # same stratified subset as the stability runs
+  subset_seed: 11
+  max_steps: 8
+  cached_attributes: true    # extract_attributes serves the B2 primary-run evidence
+  modes: [AGENT, NOTOOLS]
