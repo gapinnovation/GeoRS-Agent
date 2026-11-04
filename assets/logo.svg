@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2A47"/>
+      <stop offset="1" stop-color="#1B4965"/>
+    </linearGradient>
+    <clipPath id="lens"><circle cx="160" cy="104" r="46"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>
+  <!-- aerial mosaic: 3x3 land-cover patches -->
+  <g transform="translate(40 40)">
+    <rect x="0"   y="0"   width="54" height="54" rx="10" fill="#3BB273"/>
+    <rect x="62"  y="0"   width="54" height="54" rx="10" fill="#8D99AE"/>
+    <rect x="124" y="0"   width="54" height="54" rx="10" fill="#2E86AB"/>
+    <rect x="0"   y="62"  width="54" height="54" rx="10" fill="#A7C957"/>
+    <rect x="62"  y="62"  width="54" height="54" rx="10" fill="#2E86AB"/>
+    <rect x="124" y="62"  width="54" height="54" rx="10" fill="#E9C46A"/>
+    <rect x="0"   y="124" width="54" height="54" rx="10" fill="#8D99AE"/>
+    <rect x="62"  y="124" width="54" height="54" rx="10" fill="#3BB273"/>
+    <rect x="124" y="124" width="54" height="54" rx="10" fill="#A7C957"/>
+    <!-- road through the mosaic -->
+    <path d="M-2 150 C 40 140, 70 100, 116 92 S 170 70, 180 30" fill="none" stroke="#F4F1DE" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <!-- lens: inside it, the attribute read-out -->
+  <circle cx="160" cy="104" r="46" fill="#0E2A47" opacity="0.88"/>
+  <g clip-path="url(#lens)" font-family="Inter, Helvetica, Arial, sans-serif">
+    <circle cx="136" cy="86"  r="5" fill="#3BB273"/>
+    <rect   x="146" y="82" width="38" height="8" rx="4" fill="#F4F1DE"/>
+    <circle cx="136" cy="104" r="5" fill="#2E86AB"/>
+    <rect   x="146" y="100" width="30" height="8" rx="4" fill="#F4F1DE"/>
+    <circle cx="136" cy="122" r="5" fill="none" stroke="#E76F51" stroke-width="2.5"/>
+    <rect   x="146" y="118" width="22" height="8" rx="4" fill="#F4F1DE" opacity="0.45"/>
+  </g>
+  <circle cx="160" cy="104" r="46" fill="none" stroke="#FFFFFF" stroke-width="9"/>
+  <path d="M193 137 L226 170" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+  <!-- verified badge -->
+  <circle cx="74" cy="190" r="26" fill="#FFFFFF"/>
+  <path d="M61 190 L71 200 L88 180" fill="none" stroke="#1B4965" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,8 @@
+run,n,first_attempt_faithful,final_faithful,first_attempt_unsupported_citations,first_attempt_contradicted_citations
+primary,301,1.0,1.0,0,0
+stab1,95,1.0,1.0,0,0
+stab1b,95,0.968421052631579,1.0,0,3
+stab2,95,0.9894736842105263,1.0,0,2
+stab2b,95,1.0,1.0,0,0
+stab3,95,1.0,1.0,0,0
+stab3b,95,1.0,1.0,0,0

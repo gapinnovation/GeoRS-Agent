@@ -1,0 +1,12 @@
+# Minimum versions. The exact versions used in each run are recorded
+# automatically in results/manifest_*.json.
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+requests>=2.31
+jsonschema>=4.20
+PyYAML>=6.0
+openpyxl>=3.1
+tqdm>=4.66
+tabulate>=0.9
+pytest>=8.0
