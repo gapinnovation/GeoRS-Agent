@@ -1,0 +1,325 @@
+{
+  "created_utc": "2026-11-01T14:39:51+00:00",
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "git_commit": "not-a-git-repo",
+  "packages": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "requests": "2.34.2",
+    "jsonschema": "4.26.0",
+    "PyYAML": "6.0.3"
+  },
+  "config": {
+    "paths": {
+      "annotations_xlsx": "data/annotations_raw.xlsx",
+      "tidy_csv": "data/processed/annotations.csv",
+      "kb_json": "kb/class_profiles.json",
+      "images_root": "/content/images/WHU-RS19/",
+      "results_dir": "/content/drive/MyDrive/GeoRS-Agent/results_qwen2.5vl_7b"
+    },
+    "ollama": {
+      "host": "http://localhost:11434",
+      "model": "qwen2.5vl:7b",
+      "options": {
+        "temperature": 0.0,
+        "num_ctx": 8192,
+        "top_p": 1.0
+      },
+      "timeout": 600
+    },
+    "kb": {
+      "smoothing_alpha": 1.0
+    },
+    "protocol": {
+      "enforce_schema": true,
+      "guardrail": true,
+      "max_retries": 2,
+      "runs": [
+        {
+          "name": "primary",
+          "temperature": 0.0,
+          "seed": 1000
+        },
+        {
+          "name": "stab1",
+          "temperature": 0.7,
+          "seed": 2000
+        },
+        {
+          "name": "stab2",
+          "temperature": 0.7,
+          "seed": 3000
+        },
+        {
+          "name": "stab3",
+          "temperature": 0.7,
+          "seed": 4000
+        }
+      ],
+      "stability_images_per_class": 5,
+      "stability_subset_seed": 11,
+      "conditions": [
+        "B0",
+        "B1",
+        "B2",
+        "ORACLE"
+      ],
+      "explain_oracle": false
+    },
+    "b0_synonyms": {
+      "Airport": [
+        "airport",
+        "airfield",
+        "aerodrome"
+      ],
+      "Beach": [
+        "beach",
+        "coast",
+        "coastline",
+        "shore",
+        "seashore"
+      ],
+      "Bridge": [
+        "bridge"
+      ],
+      "Commercial": [
+        "commercial",
+        "commercial area",
+        "commercial district",
+        "downtown",
+        "business district"
+      ],
+      "Desert": [
+        "desert",
+        "dunes",
+        "sand dunes"
+      ],
+      "Farmland": [
+        "farmland",
+        "farm",
+        "agricultural",
+        "agricultural land",
+        "cropland",
+        "fields",
+        "agriculture"
+      ],
+      "footballField": [
+        "football field",
+        "soccer field",
+        "football pitch",
+        "soccer pitch",
+        "sports field",
+        "stadium"
+      ],
+      "Forest": [
+        "forest",
+        "woodland",
+        "woods"
+      ],
+      "Industrial": [
+        "industrial",
+        "industrial area",
+        "industrial zone",
+        "factory"
+      ],
+      "Meadow": [
+        "meadow",
+        "grassland",
+        "pasture"
+      ],
+      "Mountain": [
+        "mountain",
+        "mountains",
+        "mountainous",
+        "mountain range"
+      ],
+      "Park": [
+        "park",
+        "urban park"
+      ],
+      "Parking": [
+        "parking",
+        "parking lot",
+        "car park"
+      ],
+      "Pond": [
+        "pond",
+        "lake",
+        "reservoir"
+      ],
+      "Port": [
+        "port",
+        "harbor",
+        "harbour",
+        "marina"
+      ],
+      "railwayStation": [
+        "railway station",
+        "train station",
+        "rail yard",
+        "railway"
+      ],
+      "Residential": [
+        "residential",
+        "residential area",
+        "housing",
+        "suburb",
+        "neighborhood"
+      ],
+      "River": [
+        "river",
+        "stream"
+      ],
+      "Viaduct": [
+        "viaduct",
+        "interchange",
+        "highway interchange",
+        "overpass",
+        "highway"
+      ]
+    },
+    "interventions": {
+      "n_images": 95,
+      "seed": 7,
+      "explanation_top_k": 6,
+      "irrelevant_metadata_text": "\nMetadata: image acquired on a Tuesday; operator ID 4471; file compressed with JPEG quality 85."
+    }
+  },
+  "config_sha256": "0a6ffd5c92fd98ec009fb8598f4118eeb4cc6d9257d46aa70950dacc4472b58f",
+  "kb_sha256": "f5dd07ed11f8a166b0b3399f10df5994888ef6c2aafa657f401c7469bde95ad6",
+  "test_image_ids": [
+    "Farmland-36",
+    "Mountain_36",
+    "Park_36",
+    "airport_40",
+    "beach-36",
+    "bridge_37",
+    "commercial_40",
+    "desert_36",
+    "footballField_36",
+    "forest_38",
+    "industrial_37",
+    "meadow_44",
+    "parking_36",
+    "pond_39",
+    "port_38",
+    "railwayStation_36",
+    "residential_39",
+    "river_40",
+    "viaduct_42"
+  ],
+  "conditions": [
+    "B0",
+    "B1",
+    "B2"
+  ],
+  "runs": [
+    {
+      "name": "primary",
+      "temperature": 0.0,
+      "seed": 1000
+    }
+  ],
+  "model": "qwen2.5vl:7b",
+  "model_digest": "5ced39dfa4bac325dc183dd1e4febaa1c46b3ea28bce48896c8e69c1e79611cc",
+  "ollama_version": "0.40.13",
+  "stability_image_ids": [
+    "Farmland-39",
+    "Farmland-41",
+    "Farmland-42",
+    "Farmland-43",
+    "Farmland-48",
+    "Mountain_40",
+    "Mountain_42",
+    "Mountain_44",
+    "Mountain_46",
+    "Mountain_50",
+    "Park_36",
+    "Park_39",
+    "Park_42",
+    "Park_46",
+    "Park_47",
+    "airport_43",
+    "airport_46",
+    "airport_48",
+    "airport_50",
+    "airport_55",
+    "beach-36",
+    "beach-39",
+    "beach-42",
+    "beach-44",
+    "beach-47",
+    "bridge_41",
+    "bridge_42",
+    "bridge_45",
+    "bridge_46",
+    "bridge_50",
+    "commercial_41",
+    "commercial_42",
+    "commercial_43",
+    "commercial_44",
+    "commercial_49",
+    "desert_41",
+    "desert_45",
+    "desert_46",
+    "desert_47",
+    "desert_48",
+    "footballField_38",
+    "footballField_40",
+    "footballField_44",
+    "footballField_46",
+    "footballField_48",
+    "forest_39",
+    "forest_44",
+    "forest_45",
+    "forest_48",
+    "forest_51",
+    "industrial_37",
+    "industrial_40",
+    "industrial_45",
+    "industrial_46",
+    "industrial_49",
+    "meadow_44",
+    "meadow_54",
+    "meadow_56",
+    "meadow_60",
+    "meadow_61",
+    "parking_37",
+    "parking_40",
+    "parking_41",
+    "parking_43",
+    "parking_44",
+    "pond_39",
+    "pond_42",
+    "pond_44",
+    "pond_49",
+    "pond_50",
+    "port_41",
+    "port_42",
+    "port_43",
+    "port_48",
+    "port_50",
+    "railwayStation_37",
+    "railwayStation_38",
+    "railwayStation_41",
+    "railwayStation_45",
+    "railwayStation_49",
+    "residential_39",
+    "residential_41",
+    "residential_45",
+    "residential_46",
+    "residential_47",
+    "river_43",
+    "river_45",
+    "river_46",
+    "river_51",
+    "river_54",
+    "viaduct_44",
+    "viaduct_51",
+    "viaduct_52",
+    "viaduct_55",
+    "viaduct_57"
+  ]
+}

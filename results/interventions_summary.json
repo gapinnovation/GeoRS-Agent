@@ -1,0 +1,21 @@
+{
+  "n_images": 95,
+  "K1_negate_drop_ge_omit_drop": 1.0,
+  "BASE_label_change_rate": 0.0,
+  "BASE_median_margin_drop": 0.0,
+  "BASE_first_attempt_faithful": 1.0,
+  "CONTRADICT_label_change_rate": 0.2631578947368421,
+  "CONTRADICT_median_margin_drop": 3.851398383611711,
+  "CONTRADICT_first_attempt_faithful": 1.0,
+  "E3_contradiction_cited_absent_rate": 0.0,
+  "NEGATE_label_change_rate": 0.3157894736842105,
+  "NEGATE_median_margin_drop": 5.141663556502662,
+  "NEGATE_first_attempt_faithful": 1.0,
+  "E2_negated_cited_present_rate": 0.0,
+  "OMIT_label_change_rate": 0.10526315789473684,
+  "OMIT_median_margin_drop": 2.3019598976001285,
+  "OMIT_first_attempt_faithful": 0.9894736842105263,
+  "E1_omitted_attr_cited_rate": 0.0,
+  "E1_omitted_read_as_absent_rate": 0.0,
+  "M1_B1_label_change_with_metadata": 0.010526315789473684
+}

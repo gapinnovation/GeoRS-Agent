@@ -1,0 +1,2 @@
+condition,n,correct,accuracy,ci95_low,ci95_high,still_unmatched
+B0_lenient_posthoc,301,239,0.7940199335548173,0.7447656237142863,0.8358640605968306,33

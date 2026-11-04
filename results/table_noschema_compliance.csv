@@ -1,0 +1,2 @@
+run,n,first_strict_valid_json,first_strict_full_taxonomy,first_lenient_parsed,first_lenient_primary_in_taxonomy,first_lenient_full_taxonomy,final_full_taxonomy_after_retry,mean_attempts
+primary,301,1.0,0.9900332225913622,1.0,1.0,0.9900332225913622,0.9900332225913622,1.0199335548172757
